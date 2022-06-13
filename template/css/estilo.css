@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+#principal{
+    height: 2000px;
+    background-color: rgb(0, 0, 0);
+}
+
+#topo{
+    display: flex;
+    height: 100px;
+    width: 1000px;
+    background-color: rgb(10, 10, 10);
+    margin: auto;
+    margin-top: 5ex;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+
+#letras{
+    display: flex;
+    font-family: sans-serif;
+    color: aliceblue;
+    list-style: none;
+    align-items: center;
+   
+}
+
+li{
+    margin-right: 10px;
+}
+
+figure{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#corpo{
+
+    width: 1440px;
+    height: 350px ;
+    background-image: url(../img/banner.jpg);
+    background-position: 25%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.2em;
+}
+
+h2 {
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-size: 3em;
+}
+
+#corpo-2{
+        color: aliceblue;
+        font-family: sans-serif;
+        font-size: 1em;
+        text-align: center;
+        margin-top: 20px;
+}
+#texto-corpo2{
+    color: aliceblue;
+        font-family: sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 20px;
+}
+
+#equipe{
+    display: flex;
+    height: 400px;
+    width: 1440px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#foto-1{
+    width: 350px;
+    height: 300px;
+    background-color: #c14000;
+    display: flex;   
+}
+
+#edit-1{
+    
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 11em;   
+    display: flex;
+    background-image: url(../img/team1.jpg);
+    background-position: 100%;
+    background-size: cover;
+    border-radius: 100px;
+    
+}
+
+#foto-2{
+    width: 350px;
+    height: 300px;
+    background-color: #009987;
+    display: flex;
+}
+
+#edit-2{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 11em;   
+    display: flex;
+    background-image: url(../img/team2.jpg);
+    background-position: 100%;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+#foto-3{
+    width: 350px;
+    height: 300px;
+    background-color: #ffaa00;
+    display: flex;
+}
+
+#edit-3{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 11em;   
+    display: flex;
+    background-image: url(../img/team3.jpg);
+    background-position: 100%;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+#corpo-3{
+    width: 1350px;
+    height: 300px;
+    background-color: rgb(20, 20, 20); 
+    display: flex;  
+    margin-top: 3.5em;
+    margin: auto;
+}
+
+#texto{
+    width:900px;
+    height:300px;
+    margin:auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em; 
+}
+#texto-corpo3{
+    color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 20px;
+}
+#paragrafo{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+#foto-4{
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+}
+#btn-ler{
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(20, 20, 20 ); 
+    color: rgb(253, 253, 253);
+    border-radius: 10px;
+    border-color: aliceblue;
+    font-size: large;
+}
+#corpo-4{
+    width: 1440px;
+    height: 170px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 90px;
+    text-align: center;
+}
+#project{
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: white;
+    
+}
+#mensagem{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+#corpo-5{
+    width: 900px;
+    height: 500px;
+    background-color: hsl(173, 100%, 30%);
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  
+    
+}
+#todos-divs{
+    width: 280px;
+    height: 250px;
+    background-color: rgb(21, 26, 166);
+    margin: auto;
+    margin-bottom: 245px;
+}
+
+
+
